@@ -1,0 +1,6 @@
+Name: shakib hasan
+Age: 23
+Salary: 2000.00
+Name: Sheikh shakib hossain
+Age: 23
+Salary: 1500.50

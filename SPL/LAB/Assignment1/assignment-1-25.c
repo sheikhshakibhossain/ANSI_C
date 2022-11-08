@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+	
+	//25. Hour Glass Star Pattern in C 
+	int n;
+	scanf("%d", &n);
+
+	// first
+	for (int i=n; i>=1; i--)
+	{
+		// space
+		for (int k=n-1; k>=i; k--)
+			printf(" ");
+		// star
+		for (int j=1; j<=2*i-1; j++)
+			printf("*");
+		
+		printf("\n");
+	}
+
+	// last
+	for (int i=2; i<=n; i++)
+	{
+		// space
+		for (int k=n-1; k>=i; k--)
+			printf(" ");
+		// star
+		for (int j=1; j<=2*i-1; j++)
+			printf("*");
+		
+		printf("\n");
+	}
+	
+	return 0;
+}
+
